@@ -1,7 +1,6 @@
 import React from 'react';
 import { Dancing_Script } from "next/font/google";
 import SearchBox from '@/components/Helper/SearchBox';
-
 const tagLine = Dancing_Script({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
@@ -23,7 +22,7 @@ function Hero() {
                     <p className={`${tagLine.className} text-xl sm:text-1xl md:text-2xl lg:text-3xl mt-4`}>Your Gateway to Paradise</p>
                 </div>
                 {/* Add vertical gap */}
-                <div className='relative lg:mt-96 translate-y-1/2 sm:mt-0'>
+                <div className='relative md:mt-0 lg:mt-56 translate-y-1/2 sm:mt-0'>
                     <SearchBox/>
                 </div>
             </div>
