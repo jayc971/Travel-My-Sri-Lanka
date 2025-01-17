@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
                 <div className='mt-10 md:mt-20 text-center grid grid-cols-1 pt-5 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                     {whyChooseUs[0].description.map((subPoint, index) => {
                         return (
-                            <div key={index} className="p-6 text-black sm:rounded-full rounded-[10%] lg:rounded-full shadow-md">
+                            <div key={index} className="p-6 text-black sm:rounded-full rounded-[0%] lg:rounded-full shadow-md">
                                 <h3 className='text-xl font-semibold'>{subPoint.point}</h3>
                                 <p className='mt-4'>{subPoint.phrase}</p>
                             </div>
