@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaArrowRight, FaMap, FaSearch } from 'react-icons/fa';
+import { FaArrowRight, FaMap } from 'react-icons/fa';
 import { FaCalendarWeek, FaUserGroup } from 'react-icons/fa6';
 
 function SearchBox() {

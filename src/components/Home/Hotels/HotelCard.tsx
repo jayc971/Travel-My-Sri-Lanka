@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaHeart } from 'react-icons/fa';
 import Image from 'next/image';
 
 type Props = {
