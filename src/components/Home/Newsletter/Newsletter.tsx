@@ -22,7 +22,7 @@ const Newsletter = () => {
             </div>
             <div className="sm:w-full sm:mt-10 xl:w-1/3 lg:w-full lg:pt-5 xl:text-right sm:text-center lg:text-center md:text-center  md:mt-0">
                 <h1 className="text-2xl md:pb-2 xl:mt-0 xl:pt-0 md:pt-10 xl:pb-0 sm:pb-2">Your Travel Journey Starts Here</h1>
-                <p className="text-base xl:text-lg">Subscribe & we'll send the best deals to you.</p>
+                <p className="text-base xl:text-lg">Subscribe & we will send the best deals to you.</p>
             </div>
             </div>
         </div>

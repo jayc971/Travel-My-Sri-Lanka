@@ -1,7 +1,6 @@
 import React from 'react';
 import { Dancing_Script } from "next/font/google";
 import SearchBox from '@/components/Helper/SearchBox';
-import SectionHeading from '@/components/Helper/SectionHeading';
 
 const tagLine = Dancing_Script({
   weight: ["400", "500", "600", "700"],
